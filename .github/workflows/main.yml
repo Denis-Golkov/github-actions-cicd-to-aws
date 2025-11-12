@@ -4,7 +4,7 @@
 #---------------------------------------------------------------------
 name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
 env:
-  EB_PACKAGE_S3_BUCKET_NAME : "githuv-den-actions-v1 "
+  EB_PACKAGE_S3_BUCKET_NAME : "githuv-den-actions-v1"
   EB_APPLICATION_NAME       : "flaskApp"
   EB_ENVIRONMENT_NAME       : "FlaskApp-env"
   DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
